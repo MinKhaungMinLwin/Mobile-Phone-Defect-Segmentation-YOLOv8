@@ -1,6 +1,5 @@
 from setuptools import find_packages, setup
 
-
 HYPEN_E_DOT = '-e .'
 
 def get_requirements(file_path: str) -> list:
@@ -18,8 +17,8 @@ def get_requirements(file_path: str) -> list:
 setup(
     name='Mobile Phone Defect Segmentation YOLOv8',
     version='0.0.1',
-    author='Aryeh Rotberg',
-    author_email='aryeh.rotberg@gmail.com',
+    author='Min Khaung Min Lwin',
+    author_email='mkmlwin@gmail.com',
     packages=find_packages(),
     install_requires=get_requirements('requirements.txt')
 )

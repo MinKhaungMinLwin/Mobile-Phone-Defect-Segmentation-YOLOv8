@@ -31,6 +31,7 @@ class ModelTrainer:
                          imgsz=640,
                          optimizer=optimizer,
                          patience=patience,
+                         project='save_project',
                          name=f'optimizer_{optimizer}_patience_{patience}')
     
     def create_optuna_pipeline(self, n_trials):
